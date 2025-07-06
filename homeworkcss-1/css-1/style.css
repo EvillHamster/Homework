@@ -1,0 +1,38 @@
+.open-sans {
+    font-family: "Open Sans", "Times New Roman" sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.cross {
+    font-family: "Roboto", "Arial" sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.upper-text {
+    font-family: "Arial" sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fuxi {
+    font-family: "Open Sans", "Times New Roman" sans-serif;
+    word-spacing: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: overline wavy rgb(128, 31, 128);
+    color:  rgb(128, 31, 128);
+    text-shadow: 1px 1px black;
+}
+
+.block {
+    font-family: "Open Sans", "Times New Roman" serif;
+    letter-spacing: 5px;
+    text-decoration: underline double;
+    font-size: 40px;
+}
