@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.tittle {
+    background: #e7d6e5;
+    border: 1px solid #000000;
+    max-height: 600px;
+    min-height: 300px;
+    min-width: 700px;
+    max-width: none;
+    border-radius: 20px 0px 0px 20px;
+    overflow: auto;
+}
+
+.main {
+    padding: 25px;
+    margin: 10px 5px;
+    width: 300px;
+    height: 200px;
+    background: #c8b791;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px 2px #000000;
+}
