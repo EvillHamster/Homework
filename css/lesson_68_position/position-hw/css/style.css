@@ -1,0 +1,29 @@
+* {
+    background: #000;
+    color: azure;
+    font-size: 2vw;
+    }
+
+.content {
+    min-height: 400vh;
+}
+.quadro {
+    background: #ffffff;
+    height: 100px;
+    margin-top: 220px;
+    border-radius: 15px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.rad {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: #ff0000;
+    position: fixed;
+    bottom: 150px;
+    left: 55%;
+}

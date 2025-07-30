@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Tektur Condensed';
+    src: local('Tektur Condensed Medium'), local('TekturCondensed-Medium'),
+        url('TekturCondensed-Medium.woff2') format('woff2'),
+        url('TekturCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
