@@ -32,12 +32,13 @@
   height: 100%;
 }
 
-.contaner__two {
+.container__two {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 px;
   height: 100%;
 }
+
 
 .body--opened-menu {
   overflow: hidden;

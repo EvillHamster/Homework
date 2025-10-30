@@ -1,5 +1,6 @@
 .header {}
 
+/* ==================== HEADER TOP ==================== */
 .header__top {}
 
 .header__inner {
@@ -11,7 +12,9 @@
 }
 
 .header__logo {
-  min-width: 134px;
+  max-width: 148.5px;
+  width: 100%;
+  z-index: 12;
 }
 
 .header__logo img {
@@ -62,6 +65,7 @@
   display: flex;
   align-items: center;
   gap: 36px;
+  z-index: 11;
 }
 
 .action__icon {
@@ -126,15 +130,49 @@
 }
 
 .body--opened-menu .burger__icon span {
-  background: transparent;
+  transform: rotate(-90deg)
 }
 
-.body--opened-menu .burger__icon span::before {
-  top: 0px;
-  transform: rotate(-45deg);
+/* ==================== HEADER MAIN ==================== */
+.header__line {
+  max-width: 1735px;
+  height: 1px;
+  margin: 0 auto;
+  padding: 0 15px;
+  opacity: 0.5;
+  background: #FFF;
+  margin-top: 50px;
 }
 
-.body--opened-menu .burger__icon span::after {
-  bottom: 0px;
-  transform: rotate(45deg);
+.header__main {}
+
+.header__main-title {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 198.675px;
+  font-weight: 600;
+  line-height: .98;
+  margin-top: 76px;
+  max-width: 1075px;
+  text-transform: var(--text-uppercase);
+
+  position: relative;
 }
+
+.header__main-title::before {
+  content: "WITHIN";
+  position: absolute;
+  top: 70px;
+  left: 590px;
+
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.30);
+  font-family: Oswald;
+  font-size: 397.351px;
+}
+
+
+/* ====================  ==================== */
+/* ====================  ==================== */
+/* ====================  ==================== */
